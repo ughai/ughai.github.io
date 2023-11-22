@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+    <meta name="google-site-verification" content="P3xX2YVbtW3Yiet-ccDmYTKLLi5IB5QL803BaZkxGtA" />
+
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300|Roboto:300,500" rel="stylesheet">
+    
+    <style>
+    
+    /* Vanilla HTML/CSS. How quaint. */
+    
+    body {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+        background: white;
+    }
+    
+    .container {
+        padding: 30px 30px 100px 30px;
+        max-width: 800px;
+    }
+    
+    .me, .me a {
+        color: #555;
+        font-weight: 100;
+    }
+    .me {
+        margin-top: 0;
+        margin-bottom: 5px;
+        font-family: 'Roboto Slab', serif;
+        font-size: 250%;
+    }
+    
+    .headblock {
+        margin-bottom: 25px;
+    }
+    
+    .contact {
+        font-family: monospace, 'Lucida Console';
+        color: #999;
+        font-weight: 100;
+        font-size: 14px;
+    }
+    
+    .contact > div {
+        margin-left: 10px;
+        margin-right: 10px;
+        display: inline;
+    }
+    
+    .contact > div:first-child {
+        margin-left: 0;
+    }
+
+    li {
+        margin: 0 0 8px 0;
+    }
+    
+    h2, h2 a {
+        color: #555;
+        font-weight: 300;
+    }
+    h2 {
+        margin-top: 70px;
+        font-size: 150%;
+    }
+    
+    .bio p , ul {
+        color: #555;
+        font-weight: 300;
+        line-height: 1.3;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .bio a, .pub a, strong {
+        color: #333;
+        text-decoration: none;
+        font-weight: 500;
+    }
+    .bio a:hover, h2 a:hover, .pub a:hover, h1 a:hover {
+        opacity: 0.5;
+    }
+    
+    .pub {
+        color: #555;
+        font-weight: 300;
+        margin-bottom: 15px;
+        line-height: 1.3;
+    }
+    
+    .bio a.princeton {
+        color: #de7c00;
+    }
+    
+    .bio a.caltech {
+        color: #de7c00;
+    }
+    
+    .bio a.imc {
+    	color: #000080
+    }
+
+    .email::before {
+        content: "ughai@cs.princeton.edu";
+    }
+    .email::after {
+        content: " / ";
+    }
+    
+    .phone::before {
+        content: "(630) 890 7943";
+    }
+
+    @media only screen and (max-device-width: 800px) {
+        body {
+            font-size: 40px;
+        }
+        
+        .container {
+            padding: 50px 50px 100px 50px;
+            max-width: none;
+        }
+        
+        .me, .me a {
+            font-weight: 300;
+        }
+        
+        .me {
+            font-size: 200%;
+        }
+        
+        h2 {
+            margin-top: 150px;
+            font-size: 150%;
+        }
+        
+        .pub {
+            margin-bottom: 40px;
+            line-height: 1.1;
+        }
+
+        .contact {
+            font-size: 100%;
+        }
+
+        .email::after {
+            content: "";
+        }
+
+        .email {
+            display: block;
+        }
+        
+    }
+    
+    
+    </style>
+
+    <title>Udaya Ghai</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="headblock">
+            <h1 class="me"><a href="https://cs.princeton.edu/~ughai/">Udaya Ghai</a></h1>
+            <div class="contact">
+                <span class="email"></span><span class="phone"></span>
+            </div>
+        </div>
+        
+        <div class="bio">
+            <p>I am a Senior Machine Learning Scientist at Amazon, where my reseaerch focuses on applying reinforcement learning to supply chain optimization. More boradly, I'm interested in theory and algorithms for machine learning, particularly reinforcement learning, control, optimization (convex and non-convex), and online learning. 
+
+            <p> I completed my Ph.D. in Computer Science at <a class="princeton" href="https://www.princeton.edu/">Princeton</a> under the supervision of Prof. <a href="https://www.cs.princeton.edu/~ehazan/">Elad Hazan</a>, where we worked at the intersection of online learning and control theory. I also spent time as a student researcher at <a href="https://ai.google/research/">Google Brain</a>. In a previous life, I was a sofware engineer at <a href="imc.com">IMC Trading</a> after completing  a B.S. in Computer Science at <a class="caltech" href="https://www.caltech.edu/">Caltech</a>.</p>
+            
+            <p><strong></strong></p>
+        </div>
+    
+        <h2><a href="https://scholar.google.com/citations?user=Kf1SGfgAAAAJ&hl=en">Publications</a></h2>
+    
+            <div class="pub">
+                <div class="pub-title"><a href="https://arxiv.org/abs/2305.17552"> Online Nonstochastic Model-Free Reinforcement Learning.</a> NeurIPS 2023 </div>
+                <div class="pub-authors"> With Arushi Gupta, Wenhan Xia, Karan Singh, Elad Hazan. </div> 
+            </div>
+        <div class="pubs">
+            <div class="pub">
+                <div class="pub-title"><a href="https://arxiv.org/abs/2205.15235"> Non-convex online learning via algorithmic equivalence.</a> NeurIPS 2022 and Continuous Time Methods  Workshop @ ICML 2022. </div>
+                <div class="pub-authors"> With Zhou Lu and  Elad Hazan. </div> 
+            </div>
+            <div class="pub">
+                <div class="pub-title"><a href="https://arxiv.org/abs/2201.13288"> A Regret Minimization Approach to Multi-Agent Control.</a> ICML 2022 and GMAS Workshop @ ICLR  2022 (Oral Presentation + Best Poster). </div>
+                <div class="pub-authors"> With Udari Madhushani, Naomi Leonard, and Elad Hazan. </div> 
+            </div>
+           <div class="pub">
+                <div class="pub-title"><a href="https://arxiv.org/abs/2107.07732"> Robust Online Control with Model Misspecification.</a> L4DC 2022 and RL Theory Workshop @ ICML 2021. </div>
+                <div class="pub-authors"> With Xinyi Chen, Elad Hazan, and Alexandre Megretski. </div> 
+            </div>
+            <div class="pub">
+                <div class="pub-title"><a href="https://arxiv.org/pdf/2102.06779.pdf"> Machine Learning for Mechanical Ventilation Control.</a> ML4H 2021. </div>
+                <div class="pub-authors"> With Daniel Suo, Edgar Minasyan, Paula Gradu, Xinyi Chen, Naman Agarwal, Cyril Zhang, Karan Singh, Julienne LaChance, Tom Zajdel, Manuel Schottdorf, Daniel Cohen, and Elad Hazan. </div> 
+            </div>
+            <div class="pub">
+                <div class="pub-title"><a href="https://arxiv.org/pdf/2012.06695.pdf">Generating Adversarial Disturbances for Controller Verification.</a> L4DC 2021 (Oral Presentation).</div>
+                <div class="pub-authors">With David Snyder, Anirudha Majumdar, and Elad Hazan.</div>
+            </div>
+            <div class="pub">
+                <div class="pub-title"><a href="https://montrealrobotics.ca/diffcvgp/assets/papers/1.pdf">Deluca&mdash;A Differentiable Control Library: Environments, Methods, and Benchmarking.</a> DiffCVGP workshop @ NeurIPS 2020.</div>
+                <div class="pub-authors">With Paula Gradu, John Hallman, Daniel Suo, Alex Yu, Naman Agarwal, Karan Singh, Cyril Zhang, Anirudha Majumdar, and Elad Hazan.</div>
+            </div>
+
+            <div class="pub">
+                <div class="pub-title"><a href="https://arxiv.org/pdf/2002.02064.pdf">No-Regret Prediction in Marginally Stable Systems.</a> COLT 2020.</div>
+                <div class="pub-authors">With Holden Lee, Karan Singh, Cyril Zhang, and Yi Zhang.</div>
+            </div>
+            
+            <div class="pub">
+                <div class="pub-title"><a href="https://arxiv.org/pdf/1902.01903.pdf">Exponentiated Gradient Meets Gradient Descent.</a> ALT 2020.</div>
+                <div class="pub-authors">With Elad Hazan and Yoram Singer.</div>
+            </div>
+        </div>
+    </div>
+ 
+  </body>
+</html>
